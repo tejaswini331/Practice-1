@@ -10,8 +10,8 @@ public class Service1 {
 	@Autowired
 	Repository1 repository1;
 	
-	public String getData1() {
-		return repository1.getData1();
+	public String getData2() {
+		return repository1.getData2();
 	}
 
 	
