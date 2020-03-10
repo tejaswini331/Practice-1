@@ -4,7 +4,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class Repository1 {
-	public String getData2() {
+	public String getData3() {
 		return "Data1 from repository";
 	}
 
