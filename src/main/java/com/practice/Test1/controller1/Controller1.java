@@ -13,8 +13,8 @@ public class Controller1 {
 	@Autowired
 	Service1 service1;
 
-	@GetMapping("/data3")
-	public String getData3() {
-		return service1.getData3();
+	@GetMapping("/data4")
+	public String getData4() {
+		return service1.getData4();
 	}
 }
