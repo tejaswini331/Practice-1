@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class Repository1 {
 	
-	public String add14() {
+	public String add15() {
 		return "data";
 	}
 	//public String now() {
