@@ -10,8 +10,8 @@ public class Service1 {
 	@Autowired
 	Repository1 repository1;
 	 
-	public String add15() {
-		return repository1.add15();
+	public String add16() {
+		return repository1.add16();
 	}
 //public String now(String s,int v) {
 //	return repository1.now();
