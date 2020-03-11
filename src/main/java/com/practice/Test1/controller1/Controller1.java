@@ -14,10 +14,10 @@ public class Controller1 {
 	@Autowired
 	Service1 service1;
 
-	@GetMapping("/data16")
-	public String add16() {
+	@GetMapping("/data17")
+	public String add17() {
 		
-	return service1.add16();
+	return service1.add17();
 		
 	}
 	//public String now() {
