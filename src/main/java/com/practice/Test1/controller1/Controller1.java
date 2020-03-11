@@ -10,11 +10,19 @@ import com.practice.Test1.service1.Service1;
 @RestController
 @RequestMapping("/data")
 public class Controller1 {
+	
 	@Autowired
 	Service1 service1;
 
-	@GetMapping("/data7")
-	public String getData7() {
-		return service1.getData7();
+	@GetMapping("/data8")
+	public String add8() {
+		
+	return service1.add8();
+		
 	}
+	//public String now() {
+		
+		//return service1.now("string", 2);
+	//}
 }
+

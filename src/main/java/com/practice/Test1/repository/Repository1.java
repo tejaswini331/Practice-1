@@ -4,8 +4,14 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class Repository1 {
-	public String getData7() {
-		return "Data1 from repository";
+	
+	public String add8() {
+		return "data";
 	}
+	//public String now() {
+		//String s = "teju";
+		//int v = 4;
+		//return s+v;
+	//}
 
 }
